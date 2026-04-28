@@ -1,4 +1,5 @@
-#**Exchange ECP OU Picker Blank Issue - Automated Fix**
+**Exchange ECP OU Picker Blank Issue - Automated Fix**
+
 **Problem**
 When linking mailboxes or creating users in Exchange Control Panel (ECP), the Organizational Unit (OU) picker displays blank or shows "There are no items to show in this view" when the Active Directory environment contains more than 500 OUs. This occurs because Exchange Server has a hardcoded 500 OU display limit in the ECP web.config file.
 
