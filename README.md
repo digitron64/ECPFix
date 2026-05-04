@@ -10,7 +10,7 @@ This PowerShell script automatically checks the ECP web.config file for the GetL
 Exchange cumulative updates (CUs) overwrite the web.config file and remove custom settings. The included scheduled task runs daily to detect and restore the configuration automatically, eliminating the need for manual intervention after each CU installation.
 
 **Deployment:**
-Works on Exchange Server 2013, 2016, 2019, and 2025
+Works on Exchange Server 2013, 2016, 2019, and SE (Subscription Edition)
 
 Must be deployed to all Exchange servers with the Mailbox role, as ECP requests can be redirected to any server in the environment
 
