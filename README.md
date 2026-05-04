@@ -19,3 +19,6 @@ Runs as SYSTEM account with highest privileges
 Creates automatic backups before making changes
 
 Safe for production use - only modifies the specific GetListDefaultResultSize key while preserving all other web.config settings
+
+**NOTE:**
+Must modify path to Web.config depending on your version of Exchange. And, you must modify the path to there the scheduled task will be calling the script.
